@@ -9,6 +9,7 @@ namespace MoneyMaker
       Console.WriteLine("Welcome to Money Maker!");
       Console.WriteLine("How much would you like to convert");
       string totalAsString = Console.ReadLine();
+      double totalAsDouble = Convert.ToDouble(totalAsString);
       
     }
   }

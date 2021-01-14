@@ -7,10 +7,15 @@ namespace MoneyMaker
     public static void Main(string[] args)
     {
       Console.WriteLine("Welcome to Money Maker!");
+
       Console.WriteLine("How much would you like to convert");
       string totalAsString = Console.ReadLine();
+      
       double totalAsDouble = Convert.ToDouble(totalAsString);
       Console.WriteLine($"{totalAsDouble} is equal to...");
+
+      int goldValue = 10;
+      int silverValue = 5;
       
     }
   }

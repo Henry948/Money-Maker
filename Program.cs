@@ -22,12 +22,10 @@ namespace MoneyMaker
       double silverCoins = Math.Floor(leftOver / 5);
       leftOver = leftOver % silverValue;
       
-      Console.Write("Gold Coins: ");
-      Console.WriteLine(goldValue);
-      Console.Write("Silver Coins: ");
-      Console.WriteLine(silverValue);
-      Console.Write("Bronze Coins: ");
-      Console.WriteLine(leftOver);
+      Console.WriteLine($"Gold Coins: {goldCoins}");
+      Console.WriteLine($"Silver Coins: {silverCoins}");
+      Console.WriteLine($"Bronze Coins: {leftOver}");
+
     }
   }
 }

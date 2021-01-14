@@ -16,6 +16,11 @@ namespace MoneyMaker
 
       int goldValue = 10;
       int silverValue = 5;
+
+      double goldCoins = Math.Floor(totalAsDouble / 10);
+      double leftOver = goldCoins % 10;
+      double silverCoins = Math.Floor(leftOver / 5);
+      leftOver = leftOver % silverValue;
       
     }
   }
